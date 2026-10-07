@@ -1,0 +1,15 @@
+node_modules/
+out/
+.DS_Store
+.env
+.env.*
+*.log
+
+# Private inputs and generated audio intermediates
+*.mp4
+public/audio/*.wav
+.private/
+reference/
+prompt.txt
+binding*.json
+curl-*.conf

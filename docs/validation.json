@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-10-07T08:06:24+00:00",
+  "media_file": "out/xiaoke.mp4",
+  "status": "passed",
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "video_frames": 900,
+    "video_duration_seconds": 30,
+    "audio_codec": "aac",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "observed": {
+    "video_codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30",
+    "nominal_fps": "30",
+    "video_frames": 900,
+    "video_duration_seconds": 30.0,
+    "audio_codec": "aac",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2,
+    "audio_duration_seconds": 30.016,
+    "container_duration_seconds": 30.016,
+    "size_bytes": 18708580
+  },
+  "checks": {
+    "one_video_stream": true,
+    "one_audio_stream": true,
+    "resolution_1920x1080": true,
+    "frame_rate_30": true,
+    "video_frames_900": true,
+    "video_duration_30_seconds": true,
+    "audio_codec_aac": true,
+    "audio_sample_rate_48000": true,
+    "audio_channels_stereo": true,
+    "full_audio_video_decode": true,
+    "typescript": true,
+    "visual_keyframes": true
+  },
+  "full_decode": true,
+  "errors": [],
+  "visual_frames_checked": [
+    90,
+    210,
+    390,
+    570,
+    870
+  ],
+  "sha256": "dd5906238224bfcaf354b165f5b70f3e39fa84821692f4146b8577b2411a2f37"
+}
